@@ -27,7 +27,7 @@ faults:
 
 # Kubernetes Service settings
 service:
-  enabled: false
+  enabled: true
   annotations: {}
   type: ClusterIP
   metricsPort: 9797
