@@ -27,7 +27,7 @@ faults:
 
 # Kubernetes Service settings
 service:
-  enabled: true
+  enabled: false
   annotations: {}
   type: ClusterIP
   metricsPort: 9797
@@ -72,8 +72,7 @@ certificate:
 
 # metrics-server add-on required
 hpa:
-  enabled: true
-  minReplicas: 3
+  enabled: false
   maxReplicas: 10
   # average total CPU usage per pod (1-100)
   cpu:
