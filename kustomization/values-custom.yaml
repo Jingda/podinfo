@@ -73,7 +73,7 @@ certificate:
 # metrics-server add-on required
 hpa:
   enabled: true
-  minReplicas: 2
+  minReplicas: 4
   maxReplicas: 10
   # average total CPU usage per pod (1-100)
   cpu:
