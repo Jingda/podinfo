@@ -4,4 +4,9 @@ resources:
   - hpa.yaml
   - deployment.yaml
   - service.yaml
-
+configMapGenerator:
+  - name: podinfo-values
+    files:
+      - values.yaml=values-custom.yaml
+configurations:
+  - kustomizeconfig.yaml
