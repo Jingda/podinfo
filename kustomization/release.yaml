@@ -10,7 +10,7 @@ spec:
     spec:
       chart: ./charts/podinfo
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: podinfo
         namespace: podinfo
   valuesFrom:
